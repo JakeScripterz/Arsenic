@@ -42,7 +42,7 @@ if game.PlaceId == 10449761463 then
    })
    
    local Button = MainTab:CreateButton({
-      Name = "Strongest Hero into Mahito",
+      Name = "Strongest Hero to Mahito",
       Callback = function()
           loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/Mahito-Script-TSB/refs/heads/main/Mahito%20V3'))()
       end
