@@ -40,31 +40,30 @@ if game.PlaceId == 10449761463 then
    
    Rayfield:Notify({
       Title = "Made By JacKScripterz",
-      Content = "Welcome to Arsenic Hub",  -- Added missing comma
+      Content = "Welcome to Arsenic Hub"
       Duration = 5,
-      Image = nil
+      Image = nil,
    })
    
-   -- Your existing buttons
    local Button = MainTab:CreateButton({
       Name = "Strongest Hero into Mahito",
       Callback = function()
           loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/Mahito-Script-TSB/refs/heads/main/Mahito%20V3'))()
-      end
+      end,
    })
    
    local Button = MainTab:CreateButton({
       Name = "Strongest Hero to Hakari",
       Callback = function()
           loadstring(game:HttpGet("https://pastebin.com/raw/eEDYWj8p"))()
-      end
+      end,
    })
    
    local Button = MainTab:CreateButton({
       Name = "Strongest Hero to Jun",
       Callback = function()
           loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/f66279000c58a020e894a6db44914838/raw/62e53e1acacec0b38b43cd0f594292c32e09c39b/gistfile1.txt"))()
-      end
+      end,
    })
 
    local Button = MainTab:CreateButton({
@@ -72,14 +71,14 @@ if game.PlaceId == 10449761463 then
      Callback = function()
         getgenv().morph = false 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
-     end
+     end,
    })
 
    local Button = MainTab:CreateButton({
      Name = "Deadly Ninja to VOLTA",
      Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
-     end
+     end,
    })
 
    local Button = MainTab:CreateButton({
@@ -91,7 +90,7 @@ if game.PlaceId == 10449761463 then
         getgenv().LowQualityMode = true
         getgenv().BetaConsole = false
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))() 
-     end
+     end,
    })
 
    local Button = MainTab:CreateButton({
@@ -101,48 +100,48 @@ if game.PlaceId == 10449761463 then
         getgenv().AttackQuality = 'Low'
         getgenv().ConstantSpeed = false
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
-     end
+     end,
    })
 
    local MainSection2 = MainTab:CreateSection("Miscellaneous")
 
+   -- Run Tool and TP Tool buttons
    local Button = MainTab:CreateButton({
      Name = "Run Tool",
      Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/Run-Tool/refs/heads/main/Phantom%20Dash'))()
      end
-   })
+   })  -- Removed comma
 
    local Button = MainTab:CreateButton({
      Name = "TP Tool",
      Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step'))()
      end
-   })
+   })  -- Removed comma
 
-   local Slider = MainSection2:CreateSlider({
-     Name = "Walk Speed",
-     Min = 16,
-     Max = 100,
-     Default = 16,
-     Increment = 1,
-     Suffix = "Speed",
-     Callback = function(value)
-         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
-     end
-   })
+   -- Sliders
+   local WalkSpeedSlider = MainSection2:CreateSlider({  -- Changed from MainTab to MainSection2
+      Name = "Walk Speed",
+      Range = {16, 100},
+      Increment = 1,
+      CurrentValue = 16,
+      Flag = "WalkSpeedSlider",
+      Callback = function(Value)
+         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+      end
+   })  -- Removed comma
 
-   local JumpPowerSlider = MainSection2:CreateSlider({
-     Name = "Jump Power",
-     Min = 50,
-     Max = 200,
-     Default = 50,
-     Increment = 1,
-     Suffix = "Power",
-     Callback = function(value)
-         game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
-     end
-   })
+   local JumpPowerSlider = MainSection2:CreateSlider({  -- Changed from MainTab to MainSection2
+      Name = "Jump Power",
+      Range = {50, 200},
+      Increment = 1,
+      CurrentValue = 50,
+      Flag = "JumpPowerSlider",
+      Callback = function(Value)
+         game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+      end
+   })  -- Removed comma
 
    Rayfield:LoadConfiguration()
 end
