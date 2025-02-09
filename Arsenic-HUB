@@ -115,30 +115,5 @@ if game.PlaceId == 10449761463 then
       end
    })
 
-   -- Add Sliders
-   local WalkSpeedSlider = MainTab:CreateSlider({
-      Name = "Walk Speed",
-      Range = {16, 100},
-      Increment = 1,
-      Suffix = "Speed",
-      CurrentValue = 16,
-      Flag = "WalkSpeedSlider",
-      Callback = function(Value)
-         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-      end
-   })
-
-   local JumpPowerSlider = MainTab:CreateSlider({
-      Name = "Jump Power",
-      Range = {50, 200},
-      Increment = 1,
-      Suffix = "Power",
-      CurrentValue = 50,
-      Flag = "JumpPowerSlider",
-      Callback = function(Value)
-         game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-      end
-   })
-
    Rayfield:LoadConfiguration()
 end
