@@ -31,7 +31,7 @@ if game.PlaceId == 10449761463 then
       }
    })
    
-   local MainTab = Window:CreateTab("🏠Home", nil)
+   local MainTab = Window:CreateTab("Home", nil)
    local MainSection = MainTab:CreateSection("Custom Movesets")
    
    Rayfield:Notify({
