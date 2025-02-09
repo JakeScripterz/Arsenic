@@ -46,7 +46,7 @@ if game.PlaceId == 10449761463 then
    local MainSection2 = MainTab:CreateSection("Miscellaneous")
 
    -- Create sliders in MainSection2
-   local WalkSpeedSlider = MainTab:CreateSlider({
+   local WalkSpeedSlider = MainSection2:CreateSlider({
       Name = "Walk Speed",
       Info = "Adjusts player walk speed", -- Added Info
       Min = 16,
@@ -60,7 +60,7 @@ if game.PlaceId == 10449761463 then
       end    
    })
 
-   local JumpPowerSlider = MainTab:CreateSlider({
+   local JumpPowerSlider = MainSection2:CreateSlider({
       Name = "Jump Power",
       Info = "Adjusts player jump power", -- Added Info
       Min = 50,
