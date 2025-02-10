@@ -71,6 +71,17 @@ if game.PlaceId == 10449761463 then
    })
 
    local Button = MainTab:CreateButton({
+      Name = "Strongest Hero to VEX0R",
+      Callback = function()
+         getgenv().Music = false 
+         getgenv().AttackQuality = 'Low'
+         getgenv().ConstantSpeed = false
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
+      end
+   })
+
+
+   local Button = MainTab:CreateButton({
       Name = "Deadly Ninja to VOLTA",
       Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
@@ -90,12 +101,32 @@ if game.PlaceId == 10449761463 then
    })
 
    local Button = MainTab:CreateButton({
+      Name = "Hero Hunter to FAVILLA",
+      Callback = function()
+         getgenv().domorph = true
+         getgenv().Rate = .03
+         getgenv().nocam = false
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua"))()
+      end
+   })
+
+   local Button = MainTab:CreateButton({
       Name = "Brutal Demon to APOPHENIA",
       Callback = function()
          getgenv().Music = false 
          getgenv().AttackQuality = 'Low'
          getgenv().ConstantSpeed = false
          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+      end
+   })
+
+   local Button = MainTab:CreateButton({
+      Name = "Atomic Samurai to AERIS",
+      Callback = function()
+         getgenv().Music = false 
+         getgenv().AttackQuality = 'Low'
+         getgenv().ConstantSpeed = false
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
       end
    })
 
