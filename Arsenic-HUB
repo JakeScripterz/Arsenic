@@ -156,7 +156,8 @@ if game.PlaceId == 10449761463 then
 local Button = MainTab:CreateButton({
       Name = "Auto Backdash Cancel",
       Callback = function()        
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))(      
+      getgenv().keybind = "L" -- For PC users, set this to any key you want
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/BackDashCancel/refs/heads/main/Protected_8787792836664625.lua"))()
      end
    })
 
