@@ -1,4 +1,4 @@
-if game.PlaceId == 10449761463 then
+I'llif game.PlaceId == 10449761463 then
    local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
    
    local Window = Rayfield:CreateWindow({
@@ -155,12 +155,9 @@ if game.PlaceId == 10449761463 then
 
 local Button = MainTab:CreateButton({
       Name = "Auto Backdash Cancel",
-      Callback = function()
-         local Button = MainTab:CreateButton({
-      Name = "Auto Block",
-      Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
-      end
+      Callback = function()        
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))(      
+     end
    })
 
    Rayfield:LoadConfiguration()
