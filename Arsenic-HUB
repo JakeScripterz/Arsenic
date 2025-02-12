@@ -153,5 +153,15 @@ if game.PlaceId == 10449761463 then
       end
    })
 
+local Button = MainTab:CreateButton({
+      Name = "Auto Backdash Cancel",
+      Callback = function()
+         local Button = MainTab:CreateButton({
+      Name = "Auto Block",
+      Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
+      end
+   })
+
    Rayfield:LoadConfiguration()
 end
