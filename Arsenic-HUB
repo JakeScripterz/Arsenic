@@ -1,168 +1,170 @@
 if game.PlaceId == 10449761463 then
     local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
     
+    -- Initialize Window
     local Window = Rayfield:CreateWindow({
-       Name = "Arsenic Hub",
-       Icon = 0, 
-       LoadingTitle = "Arsenic Hub Is Loading",
-       LoadingSubtitle = "by JacKScripterz",
-       Theme = "Default",
-       DisableRayfieldPrompts = false,
-       DisableBuildWarnings = false, 
-       ConfigurationSaving = {
-          Enabled = false,
-          FolderName = nil, 
-          FileName = "Skibidi_Scripterz_hub"
-       },
-       Discord = {
-          Enabled = false,
-          Invite = "noinvitelink", 
-          RememberJoins = true 
-       },
-       KeySystem = false, 
-       KeySettings = {
-          Title = "Untitled",
-          Subtitle = "Key System",
-          Note = "No method of obtaining the key is provided", 
-          FileName = "Key", 
-          SaveKey = true, 
-          GrabKeyFromSite = false, 
-          Key = {"Hello"} 
-       }
+        Name = "Arsenic Hub",
+        LoadingTitle = "Arsenic Hub Is Loading",
+        LoadingSubtitle = "by JacKScripterz",
+        ConfigurationSaving = {
+            Enabled = true,
+            FolderName = "ArsenicHub",
+            FileName = "Config"
+        },
+        KeySystem = false,
+        KeySettings = {
+            Title = "Arsenic Hub",
+            Subtitle = "Key System",
+            Note = "No method of obtaining the key is provided",
+            FileName = "Key",
+            SaveKey = true,
+            GrabKeyFromSite = false,
+            Key = {"Hello"}
+        }
     })
-    
-    local MainTab = Window:CreateTab("Home", nil)
-    local MainSection = MainTab:CreateSection("Custom Movesets")
-    
-    Rayfield:Notify({
-       Title = "Made By JacKScripterz",
-       Content = "Welcome to Arsenic Hub",  -- Added missing comma
-       Duration = 5,
-       Image = nil
-    })
-    
-    local Button = MainTab:CreateButton({
-       Name = "Strongest Hero to Mahito",
-       Callback = function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/Mahito-Script-TSB/refs/heads/main/Mahito%20V3'))()
-       end
-    })
-    
-    local Button = MainTab:CreateButton({
-       Name = "Strongest Hero to Hakari",
-       Callback = function()
-           loadstring(game:HttpGet("https://pastebin.com/raw/eEDYWj8p"))()
-       end
-    })
-    
-    local Button = MainTab:CreateButton({
-       Name = "Strongest Hero to Jun",
-       Callback = function()
-           loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/f66279000c58a020e894a6db44914838/raw/62e53e1acacec0b38b43cd0f594292c32e09c39b/gistfile1.txt"))()
-       end
-    })
- 
-    local Button = MainTab:CreateButton({
-       Name = "Strongest Hero to Unbounded Gojo",
-       Callback = function()
-          getgenv().morph = false 
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
-       end
-    })
- 
-    local Button = MainTab:CreateButton({
-       Name = "Strongest Hero to VEX0R",
-       Callback = function()
-          getgenv().Music = false 
-          getgenv().AttackQuality = 'Low'
-          getgenv().ConstantSpeed = false
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
-       end
-    })
- 
- 
-    local Button = MainTab:CreateButton({
-       Name = "Deadly Ninja to VOLTA",
-       Callback = function()
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
-       end
-    })
- 
-    local Button = MainTab:CreateButton({
-       Name = "Hero Hunter to ARCAURA",
-       Callback = function()
-          getgenv().OptimizeUltimate = true
-          getgenv().ReduceUltFlash = true
-          getgenv().Move1Insta = true
-          getgenv().LowQualityMode = true
-          getgenv().BetaConsole = false
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))() 
-       end
-    })
- 
-    local Button = MainTab:CreateButton({
-       Name = "Hero Hunter to FAVILLA",
-       Callback = function()
-          getgenv().domorph = true
-          getgenv().Rate = .03
-          getgenv().nocam = false
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua"))()
-       end
-    })
- 
-    local Button = MainTab:CreateButton({
-       Name = "Brutal Demon to APOPHENIA",
-       Callback = function()
-          getgenv().Music = false 
-          getgenv().AttackQuality = 'Low'
-          getgenv().ConstantSpeed = false
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
-       end
-    })
- 
-    local Button = MainTab:CreateButton({
-       Name = "Atomic Samurai to AERIS",
-       Callback = function()
-          getgenv().Music = false 
-          getgenv().AttackQuality = 'Low'
-          getgenv().ConstantSpeed = false
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
-       end
-    })
- 
-    ...existing code...
 
+    -- Create Tabs
+    local MainTab = Window:CreateTab("Main", nil) -- nil for no icon
+    local MainSection = MainTab:CreateSection("Custom Movesets")
     local MiscTab = Window:CreateTab("Miscellaneous", nil)
     local MiscSection = MiscTab:CreateSection("Tools")
 
-    local Button = MiscTab:CreateButton({
-       Name = "Run Tool",
-       Callback = function()
-          loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/Run-Tool/refs/heads/main/Phantom%20Dash'))()
-       end
-    })
- 
-    local Button = MiscTab:CreateButton({
-       Name = "TP Tool",
-       Callback = function()
-          loadstring(game:HttpGet('https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step'))()
-       end
-    })
- 
-    local Button = MiscTab:CreateButton({
-       Name = "Auto Block",
-       Callback = function()
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
-       end
-    })
- 
-    local Button = MiscTab:CreateButton({
-       Name = "Auto Backdash Cancel",
-       Callback = function()        
-          getgenv().keybind = "L" 
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/BackDashCancel/refs/heads/main/Protected_8787792836664625.lua"))()
-       end
-    })
- 
+    -- Welcome Notification
+    task.spawn(function()
+        Rayfield:Notify({
+            Title = "Script Loaded",
+            Content = "Welcome to Arsenic Hub",
+            Duration = 6.5,
+            Image = nil
+        })
+    end)
+
+    -- Main Tab Buttons Configuration
+    local buttons = {
+        {
+            Name = "Strongest Hero to Mahito",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Mahito-Script-TSB/refs/heads/main/Mahito%20V3"
+        },
+        {
+            Name = "Strongest Hero to Hakari",
+            URL = "https://pastebin.com/raw/eEDYWj8p"
+        },
+        {
+            Name = "Strongest Hero to Jun",
+            URL = "https://gist.githubusercontent.com/GoldenHeads2/f66279000c58a020e894a6db44914838/raw/62e53e1acacec0b38b43cd0f594292c32e09c39b/gistfile1.txt"
+        },
+        {
+            Name = "Strongest Hero to Unbounded Gojo",
+            URL = "https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua",
+            Settings = function()
+                getgenv().morph = false
+            end
+        },
+        {
+            Name = "Strongest Hero to VEX0R",
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua",
+            Settings = function()
+                getgenv().Music = false
+                getgenv().AttackQuality = 'Low'
+                getgenv().ConstantSpeed = false
+            end
+        },
+        {
+            Name = "Deadly Ninja to VOLTA",
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"
+        },
+        {
+            Name = "Hero Hunter to ARCAURA",
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua",
+            Settings = function()
+                getgenv().OptimizeUltimate = true
+                getgenv().ReduceUltFlash = true
+                getgenv().Move1Insta = true
+                getgenv().LowQualityMode = true
+                getgenv().BetaConsole = false
+            end
+        },
+        {
+            Name = "Hero Hunter to FAVILLA",
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua",
+            Settings = function()
+                getgenv().domorph = false
+                getgenv().Rate = .03
+                getgenv().nocam = false
+            end
+        },
+        {
+            Name = "Brutal Demon to APOPHENIA",
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua",
+            Settings = function()
+                getgenv().Music = false
+                getgenv().AttackQuality = 'Low'
+                getgenv().ConstantSpeed = false
+            end
+        },
+        {
+            Name = "Atomic Samurai to AERIS",
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua",
+            Settings = function()
+                getgenv().Music = false
+                getgenv().AttackQuality = 'Low'
+                getgenv().ConstantSpeed = false
+            end
+        }
+    }
+
+    -- Create buttons for Main Tab
+    for _, button in ipairs(buttons) do
+        MainTab:CreateButton({
+            Name = button.Name,
+            Callback = function()
+                if button.Settings then
+                    button.Settings()
+                end
+                loadstring(game:HttpGet(button.URL))()
+            end
+        })
+    end
+
+    -- Misc Tab Buttons Configuration
+    local miscButtons = {
+        {
+            Name = "Run Tool",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Run-Tool/refs/heads/main/Phantom%20Dash"
+        },
+        {
+            Name = "TP Tool",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step"
+        },
+        {
+            Name = "Auto Block",
+            URL = "https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"
+        },
+        {
+            Name = "Auto Backdash Cancel",
+            URL = "https://raw.githubusercontent.com/Cyborg883/BackDashCancel/refs/heads/main/Protected_8787792836664625.lua",
+            Settings = function()
+                getgenv().keybind = "L"
+            end
+        },
+        {
+            Name = "FE Fake Downslam",
+            URL = "https://raw.githubusercontent.com/Mautiku/ehh/refs/heads/main/Fake%20downslam.txt"
+        }
+    }
+
+    -- Create buttons for Misc Tab
+    for _, button in ipairs(miscButtons) do
+        MiscTab:CreateButton({
+            Name = button.Name,
+            Callback = function()
+                if button.Settings then
+                    button.Settings()
+                end
+                loadstring(game:HttpGet(button.URL))()
+            end
+        })
+    end
+
     Rayfield:LoadConfiguration()
 end
