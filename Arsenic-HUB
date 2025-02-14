@@ -54,6 +54,10 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Jun"
         },
         {
+            Name = "Strongest Hero To Shinji",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji"
+        },
+        {
             Name = "Strongest Hero to Unbounded Gojo",
             URL = "https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua",
             Settings = function()
