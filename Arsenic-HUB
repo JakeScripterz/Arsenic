@@ -149,17 +149,11 @@ if game.PlaceId == 10449761463 then
         },
         {
             Name = "Trash Can Moveset",
-            URL = "https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Trash-Can/refs/heads/main/Trash%20Can%20Moveset",
         },
         {
             Name = "FE Fake Downslam",
             URL = "https://raw.githubusercontent.com/Mautiku/ehh/refs/heads/main/Fake%20downslam.txt"
-        },
-        {
-            Name = "Destroy UI",
-            Callback = function()
-                Rayfield:Destroy()
-            end
         }
     }
 
