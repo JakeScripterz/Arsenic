@@ -148,6 +148,10 @@ if game.PlaceId == 10449761463 then
             end
         },
         {
+            Name = "Trash Can Moveset",
+            URL = "https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man",
+        },
+        {
             Name = "FE Fake Downslam",
             URL = "https://raw.githubusercontent.com/Mautiku/ehh/refs/heads/main/Fake%20downslam.txt"
         }
@@ -165,15 +169,6 @@ if game.PlaceId == 10449761463 then
             end
         })
     end
-
-    local MiscSection2 = MiscTab:CreateSection("Trolling")
-    
-    MiscSection2:CreateButton({
-        Name = "Trash Can Moveset",
-        Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man",true))()
-        end
-    })
 
     Rayfield:LoadConfiguration()
 end
