@@ -47,7 +47,7 @@ if game.PlaceId == 10449761463 then
         },
         {
             Name = "Strongest Hero to Hakari",
-            URL = "https://pastebin.com/raw/eEDYWj8p"
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Hakari/refs/heads/main/Hakari%20Moveset"
         },
         {
             Name = "Strongest Hero to Jun",
