@@ -51,7 +51,7 @@ if game.PlaceId == 10449761463 then
         },
         {
             Name = "Strongest Hero to Jun",
-            URL = "https://gist.githubusercontent.com/GoldenHeads2/f66279000c58a020e894a6db44914838/raw/62e53e1acacec0b38b43cd0f594292c32e09c39b/gistfile1.txt"
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Jun"
         },
         {
             Name = "Strongest Hero to Unbounded Gojo",
