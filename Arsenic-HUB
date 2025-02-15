@@ -77,6 +77,10 @@ if game.PlaceId == 10449761463 then
                 getgenv().ConstantSpeed = false
             end
         },
+ {
+            Name = "Deadly Ninja To Toji",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Toji"
+        },
         {
             Name = "Deadly Ninja to VOLTA",
             URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"
