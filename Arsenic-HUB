@@ -102,10 +102,6 @@ if game.PlaceId == 10449761463 then
             end
         },
         {
-            Name = KJ to JK
-            URL = "https://raw.githubusercontent.com/JakeScripterz/JK-Script-/refs/heads/main/KJ%20To%20JK"
-        },
-        {
             Name = "Brutal Demon to APOPHENIA",
             URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua",
             Settings = function()
@@ -122,7 +118,11 @@ if game.PlaceId == 10449761463 then
                 getgenv().AttackQuality = 'Low'
                 getgenv().ConstantSpeed = false
             end
-        }
+        },
+        {
+            Name = "KJ to JK",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/JK-Script-/refs/heads/main/JK"
+        },
     }
 
     -- Create buttons for Main Tab
