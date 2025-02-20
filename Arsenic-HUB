@@ -78,6 +78,10 @@ if game.PlaceId == 10449761463 then
             end
         },
         {
+            Name = "Destructive Cyborg to Mastery Genos",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Jun"
+        },
+        {
             Name = "Deadly Ninja to VOLTA",
             URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"
         },
