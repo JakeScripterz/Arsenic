@@ -157,11 +157,8 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"
         },
         {
-            Name = "Auto Backdash Cancel",
-            URL = "https://raw.githubusercontent.com/Cyborg883/BackDashCancel/refs/heads/main/Protected_8787792836664625.lua",
-            Settings = function()
-                getgenv().keybind = "L"
-            end
+            Name = "Auto Tech",
+            URL = "https://raw.githubusercontent.com/Cyborg883/NewAutoTech/refs/heads/main/Protected_6389347658054908.lua",
         },
         {
             Name = "Trash Can Moveset",
