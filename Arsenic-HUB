@@ -161,6 +161,10 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/Cyborg883/NewAutoTech/refs/heads/main/Protected_6389347658054908.lua",
         },
         {
+            Name = "Stick to Player",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/TPOP",
+        },
+        {
             Name = "Trash Can Moveset",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Trash-Can/refs/heads/main/Trash%20Can%20Moveset",
         },
