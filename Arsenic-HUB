@@ -72,7 +72,7 @@ if game.PlaceId == 10449761463 then
         {
             Name = "Strongest Hero To Shinjuku Gojo",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Gojo-V4/refs/heads/main/Gojo"
-        }
+        },
         {
             Name = "Strongest Hero to VEX0R",
             URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua",
