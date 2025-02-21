@@ -74,12 +74,7 @@ if game.PlaceId == 10449761463 then
         },
         {
             Name = "Strongest Hero to VEX0R",
-            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua",
-            Settings = function()
-                getgenv().Music = false
-                getgenv().AttackQuality = 'Low'
-                getgenv().ConstantSpeed = false
-            end
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua",
         },
         {
             Name = "Destructive Cyborg to Mastery Genos",
