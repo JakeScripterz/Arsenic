@@ -3,7 +3,7 @@ if game.PlaceId == 10449761463 then
     
     -- Initialize Window
     local Window = Rayfield:CreateWindow({
-        Name = "Arsenic Hub",
+        Name = "Arsenic Hub ☢️",
         LoadingTitle = "Arsenic Hub Is Loading",
         LoadingSubtitle = "by JacKScripterz",
         ConfigurationSaving = {
