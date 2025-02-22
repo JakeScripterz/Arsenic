@@ -156,7 +156,7 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"
         },
         {
-            Name = "Move During Saitama Ult",
+            Name = "Rotate During Saitama Ult",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/MDSUA"
         },
         {
