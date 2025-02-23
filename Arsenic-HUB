@@ -54,11 +54,11 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Jun"
         },
         {
-            Name = "Strongest Hero To Shinji",
+            Name = "Strongest Hero to Shinji",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji"
         },
         {
-            Name = "Strongest Hero To Kratos",
+            Name = "Strongest Hero to Kratos",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Kratos/refs/heads/main/KRATOS%20BY%20JACKSCRIPTERZZZ"
         },
         {
@@ -69,15 +69,19 @@ if game.PlaceId == 10449761463 then
             end
         },
         {
-            Name = "Strongest Hero To The Strongest Of Today",
+            Name = "Strongest Hero to The Strongest Of Today",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Gojo-V4/refs/heads/main/Gojo"
         },
         {
-            Name = "Strongest Hero To The Strongest Of History",
+            Name = "Strongest Hero to The Strongest Of History",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Strongest%20Of%20History"
         },
         {
-            Name = "Strongest Hero To Mastery Saitama",
+            Name = "Hero Hunter to KJ",
+            URL = "https://raw.githubusercontent.com/damir512/garoukjv1maybeidk/main/Protected_2460290213750059.txt"
+        },
+        {
+            Name = "Strongest Hero to Mastery Saitama",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Saitama"
         },
         {
