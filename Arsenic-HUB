@@ -85,6 +85,10 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Genos"
         },
         {
+            Name = "Deadly Ninja to Mastery Sonic",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Sonic"
+        },
+        {
             Name = "Hero Hunter to Mastery Garou",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Mastery-Garou/refs/heads/main/Mastery"
         },
