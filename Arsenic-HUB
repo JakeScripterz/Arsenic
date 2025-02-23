@@ -62,15 +62,19 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JakeScripterz/Kratos/refs/heads/main/KRATOS%20BY%20JACKSCRIPTERZZZ"
         },
         {
-            Name = "Strongest Hero to Unbounded Gojo",
+            Name = "Strongest Hero to Shibuya Arc Gojo",
             URL = "https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua",
             Settings = function()
                 getgenv().morph = false
             end
         },
         {
-            Name = "Strongest Hero To Shinjuku Gojo",
+            Name = "Strongest Hero To The Strongest Of Today",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Gojo-V4/refs/heads/main/Gojo"
+        },
+        {
+            Name = "Strongest Hero To The Strongest Of History",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Strongest%20Of%20History"
         },
         {
             Name = "Destructive Cyborg to Mastery Genos",
