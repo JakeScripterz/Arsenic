@@ -79,7 +79,7 @@ if game.PlaceId == 10449761463 then
         {
             Name = "Hero Hunter to Mastery Garou",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Mastery-Garou/refs/heads/main/Mastery"
-        }
+        },
         {
             Name = "Strongest Hero to VEX0R",
             URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua",
