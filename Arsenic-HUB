@@ -89,6 +89,10 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"
         },
         {
+            Name = "Hero Hunter to Minos Prime",
+            URL = "https://raw.githubusercontent.com/S1gmaGuy/Minosprime/refs/heads/main/Minos%20prime%20finally%20released"
+        },
+        {
             Name = "Strongest Hero to Mastery Saitama",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Saitama"
         },
