@@ -89,6 +89,10 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"
         },
         {
+            Name = "Hero Hunter to Cosmic Garou",
+            URL = "https://raw.githubusercontent.com/4ntrax7w7v9/4ntrax-Scripts/refs/heads/main/CosmicGarouReawakenedYeah"
+        },
+        {
             Name = "Strongest Hero to Mastery Saitama",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Saitama"
         },
