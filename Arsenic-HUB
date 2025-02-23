@@ -73,12 +73,16 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JakeScripterz/Gojo-V4/refs/heads/main/Gojo"
         },
         {
-            Name = "Strongest Hero to VEX0R",
-            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua",
-        },
-        {
             Name = "Destructive Cyborg to Mastery Genos",
             URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Genos"
+        },
+        {
+            Name = "Hero Hunter to Mastery Garou",
+            URL = "https://raw.githubusercontent.com/JakeScripterz/Mastery-Garou/refs/heads/main/Mastery"
+        }
+        {
+            Name = "Strongest Hero to VEX0R",
+            URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua",
         },
         {
             Name = "Deadly Ninja to VOLTA",
