@@ -1,4 +1,3 @@
-if game.PlaceId == 10449761463 then
     local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
     
     -- Initialize Window
@@ -194,6 +193,10 @@ if game.PlaceId == 10449761463 then
         {
             Name = "Infinite Jump",
             URL = "https://pastebin.com/raw/b6EaD89h"
+        },
+        {
+            Name = "ESP",
+            URL = "https://pastebin.com/raw/7K1Jhmck"
         },
         {
             Name = "Animation Logger",
