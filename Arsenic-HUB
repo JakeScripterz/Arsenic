@@ -191,10 +191,6 @@ local miscButtons = {
         URL = "https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"
     },
     {
-        Name = "ESP",
-        URL = "https://pastebin.com/raw/7K1Jhmck"
-    },
-    {
         Name = "Animation Logger",
         URL = "https://pastebin.com/raw/TMkwdWgY"
     },
