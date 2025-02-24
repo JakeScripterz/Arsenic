@@ -188,6 +188,22 @@ if game.PlaceId == 10449761463 then
             URL = "https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step"
         },
         {
+            Name = "Fly GUI",
+            URL = "https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"
+        },
+        {
+            Name = "Infinite Jump",
+            URL = "https://pastebin.com/raw/b6EaD89h"
+        },
+        {
+            Name = "Animation Logger",
+            URL = "https://pastebin.com/raw/TMkwdWgY"
+        },
+        {
+            Name = "Invisible Script / Void Kill",
+            URL = "https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"
+        },
+        {
             Name = "Auto Block",
             URL = "https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"
         },
