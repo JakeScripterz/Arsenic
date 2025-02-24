@@ -5,7 +5,7 @@ if game.PlaceId == 10449761463 then
     local Window = Rayfield:CreateWindow({
         Name = "Arsenic Hub ☢",
         LoadingTitle = "Arsenic Hub Is Loading",
-        LoadingSubtitle = "by JacKScripterz",
+        LoadingSubtitle = "by JakeScripterz",
         ConfigurationSaving = {
             Enabled = true,
             FolderName = "ArsenicHub",
