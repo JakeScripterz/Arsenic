@@ -203,6 +203,10 @@ local miscButtons = {
         URL = "https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"
     },
     {
+        Name = "Full Auto Kyoto",
+        URL = "https://pastebin.com/raw/H8X2Fgd9"
+    },
+    {
         Name = "Rotate During Saitama Ult",
         URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/MDSUA"
     },
