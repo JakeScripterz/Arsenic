@@ -192,7 +192,7 @@ local miscButtons = {
     },
     {
         Name = "Infinite Jump",
-        URL = "https://pastebin.com/raw/b6EaD89h"
+        URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/Infinite%20Jump"
     },
     {
         Name = "ESP",
