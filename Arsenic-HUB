@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Initialize Window
 local Window = Rayfield:CreateWindow({
-    Name = "Arsenic Hub â˜¢",
+    Name = "Arsenic Hub",
     LoadingTitle = "Arsenic Hub Is Loading",
     LoadingSubtitle = "by JakeScripterz",
     ConfigurationSaving = {
