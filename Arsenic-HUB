@@ -1,248 +1,48 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local CopyButton = Instance.new("TextButton")
 
--- Initialize Window
-local Window = Rayfield:CreateWindow({
-    Name = "Arsenic Hub",
-    LoadingTitle = "Arsenic Hub Is Loading",
-    LoadingSubtitle = "by JakeScripterz",
-    ConfigurationSaving = {
-        Enabled = true,
-        FolderName = "ArsenicHub",
-        FileName = "Config"
-    },
-    KeySystem = false,
-    KeySettings = {
-        Title = "Arsenic Hub",
-        Subtitle = "Key System",
-        Note = "No method of obtaining the key is provided",
-        FileName = "Key",
-        SaveKey = true,
-        GrabKeyFromSite = false,
-        Key = {"Hello"}
-    }
-})
+-- Set properties for ScreenGui
+ScreenGui.Name = "NotificationGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
--- Create Tabs
-local MainTab = Window:CreateTab("Main", nil) -- nil for no icon
-local MainSection = MainTab:CreateSection("Custom Movesets")
-local MiscTab = Window:CreateTab("Miscellaneous", nil)
-local MiscSection = MiscTab:CreateSection("Tools")
+-- Set properties for Frame
+Frame.Name = "NotificationFrame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.5
+Frame.Position = UDim2.new(0.5, -150, 0.5, -50)
+Frame.Size = UDim2.new(0, 300, 0, 100)
 
--- Welcome Notification
-task.spawn(function()
-    Rayfield:Notify({
-        Title = "Script Loaded",
-        Content = "Welcome to Arsenic Hub",
-        Duration = 6.5,
-        Image = nil
-    })
-end)
+-- Set properties for TextLabel
+TextLabel.Name = "NotificationText"
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0, 0, 0, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.5, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Script outdated, Go to my discord for the new version"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
 
--- Main Tab Buttons Configuration
-local buttons = {
-    {
-        Name = "Strongest Hero to Mahito",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Mahito-Script-TSB/refs/heads/main/Mahito%20V3"
-    },
-    {
-        Name = "Strongest Hero to Hakari",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Hakari/refs/heads/main/Hakari%20Moveset"
-    },
-    {
-        Name = "Strongest Hero to Jun",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Jun"
-    },
-    {
-        Name = "Strongest Hero to Shinji",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji"
-    },
-    {
-        Name = "Strongest Hero to Kratos",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Kratos/refs/heads/main/KRATOS%20BY%20JACKSCRIPTERZZZ"
-    },
-    {
-        Name = "Strongest Hero to Sung Jin Woo",
-        URL = "https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"
-    },
-    {
-        Name = "Strongest Hero to Shibuya Arc Gojo",
-        URL = "https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua",
-        Settings = function()
-            getgenv().morph = false
-        end
-    },
-    {
-        Name = "Strongest Hero to The Strongest Of Today",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Gojo-V4/refs/heads/main/Gojo"
-    },
-    {
-        Name = "Strongest Hero to The Strongest Of History",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Strongest%20Of%20History"
-    },
-    {
-        Name = "Hero Hunter to KJ",
-        URL = "https://raw.githubusercontent.com/damir512/garoukjv1maybeidk/main/Protected_2460290213750059.txt"
-    },
-    {
-        Name = "Hero Hunter to Suiryu",
-        URL = "https://gist.githubusercontent.com/kjremaker/b092496fc11a57e2c50477154176fa3e/raw/2148f00a036a1799118541765675f3f6a0f8adae/GAROU%20TO%20SURIYU%20BETTER%20THAN%20THE%20OTHERS%20FR"
-    },
-    {
-        Name = "Hero Hunter to Goku",
-        URL = "https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"
-    },
-    {
-        Name = "Hero Hunter to Minos Prime",
-        URL = "https://raw.githubusercontent.com/S1gmaGuy/MinosPrimeFixed/refs/heads/main/ThefixIsSoSigma"
-    },
-    {
-        Name = "Strongest Hero to Mastery Saitama",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Saitama"
-    },
-    {
-        Name = "Destructive Cyborg to Mastery Genos",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Genos"
-    },
-    {
-        Name = "Deadly Ninja to Mastery Sonic",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Sonic"
-    },
-    {
-        Name = "Hero Hunter to Mastery Garou",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Mastery-Garou/refs/heads/main/Mastery"
-    },
-    {
-        Name = "Blade Master to Mastery Atomic Samurai",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Atomic%20Samurai"
-    },
-    {
-        Name = "Strongest Hero to VEX0R",
-        URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua"
-    },
-    {
-        Name = "Deadly Ninja to VOLTA",
-        URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"
-    },
-    {
-        Name = "Hero Hunter to ARCAURA",
-        URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua",
-        Settings = function()
-            getgenv().OptimizeUltimate = true
-            getgenv().ReduceUltFlash = true
-            getgenv().Move1Insta = true
-            getgenv().LowQualityMode = true
-            getgenv().BetaConsole = false
-        end
-    },
-    {
-        Name = "Hero Hunter to FAVILLA",
-        URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua",
-        Settings = function()
-            getgenv().domorph = false
-            getgenv().Rate = .03
-            getgenv().nocam = false
-        end
-    },
-    {
-        Name = "Brutal Demon to APOPHENIA",
-        URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua",
-        Settings = function()
-            getgenv().Music = false
-            getgenv().AttackQuality = 'Low'
-            getgenv().ConstantSpeed = false
-        end
-    },
-    {
-        Name = "Atomic Samurai to AERIS",
-        URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua",
-        Settings = function()
-            getgenv().Music = false
-            getgenv().AttackQuality = 'Low'
-            getgenv().ConstantSpeed = false
-        end
-    },
-    {
-        Name = "KJ to JK",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/JK-Script-/refs/heads/main/JK"
-    }
-}
+-- Set properties for CopyButton
+CopyButton.Name = "Copy Discord Link"
+CopyButton.Parent = Frame
+CopyButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+CopyButton.Position = UDim2.new(0.25, 0, 0.6, 0)
+CopyButton.Size = UDim2.new(0.5, 0, 0.3, 0)
+CopyButton.Font = Enum.Font.SourceSans
+CopyButton.Text = "Copy Link"
+CopyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyButton.TextScaled = true
 
--- Create buttons for Main Tab
-for _, button in ipairs(buttons) do
-    MainTab:CreateButton({
-        Name = button.Name,
-        Callback = function()
-            if button.Settings then
-                button.Settings()
-            end
-            loadstring(game:HttpGet(button.URL))()
-        end
-    })
+-- Function to copy the link to the clipboard
+local function copyLink()
+    local link = "Discord.gg/DAzwhgEDPJ" -- Replace with your desired link
+    setclipboard(link)
+    TextLabel.Text = "Link copied to clipboard!"
 end
 
--- Misc Tab Buttons Configuration
-local miscButtons = {
-    {
-        Name = "Run Tool",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Run-Tool/refs/heads/main/Phantom%20Dash"
-    },
-    {
-        Name = "TP Tool",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step"
-    },
-    {
-        Name = "Fly GUI",
-        URL = "https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"
-    },
-    {
-        Name = "Animation Logger",
-        URL = "https://pastebin.com/raw/TMkwdWgY"
-    },
-    {
-        Name = "Invisible Script / Void Kill",
-        URL = "https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"
-    },
-    {
-        Name = "Auto Block",
-        URL = "https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"
-    },
-    {
-        Name = "Full Auto Kyoto",
-        URL = "https://pastebin.com/raw/H8X2Fgd9"
-    },
-    {
-        Name = "Rotate During Saitama Ult",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/MDSUA"
-    },
-    {
-        Name = "Auto Tech",
-        URL = "https://raw.githubusercontent.com/Cyborg883/NewAutoTech/refs/heads/main/Protected_6389347658054908.lua"
-    },
-    {
-        Name = "Stick to Player",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/TPOP"
-    },
-    {
-        Name = "Trash Can Moveset",
-        URL = "https://raw.githubusercontent.com/JakeScripterz/Trash-Can/refs/heads/main/Trash%20Can%20Moveset"
-    },
-    {
-        Name = "FE Fake Downslam",
-        URL = "https://raw.githubusercontent.com/Mautiku/ehh/refs/heads/main/Fake%20downslam.txt"
-    }
-}
-
--- Create buttons for Misc Tab
-for _, button in ipairs(miscButtons) do
-    MiscTab:CreateButton({
-        Name = button.Name,
-        Callback = function()
-            if button.Settings then
-                button.Settings()
-            end
-            loadstring(game:HttpGet(button.URL))()
-        end
-    })
-end
-
-Rayfield:LoadConfiguration()
+CopyButton.MouseButton1Click:Connect(copyLink)
