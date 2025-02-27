@@ -61,6 +61,10 @@ local buttons = {
         URL = "https://raw.githubusercontent.com/JakeScripterz/Kratos/refs/heads/main/KRATOS%20BY%20JACKSCRIPTERZZZ"
     },
     {
+        Name = "Strongest Hero to Sung Jin Woo",
+        URL = "https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"
+    },
+    {
         Name = "Strongest Hero to Shibuya Arc Gojo",
         URL = "https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua",
         Settings = function()
