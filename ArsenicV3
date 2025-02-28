@@ -130,6 +130,7 @@ local miscButtons = {
     {Name = "Animation Logger", URL = "https://pastebin.com/raw/TMkwdWgY"},
     {Name = "Invisible Script / Void Kill", URL = "https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"},
     {Name = "Auto Block", URL = "https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"},
+    {Name = "Aim Lock", URL = "https://raw.githubusercontent.com/Aepione/Prensado/refs/heads/main/Prensado%20camlock"},
     {Name = "Full Auto Kyoto", URL = "https://pastebin.com/raw/H8X2Fgd9"},
     {Name = "Fling Player", URL = "https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20fling%20script"},
     {Name = "Rotate During Saitama Ult", URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/MDSUA"},
