@@ -45,6 +45,7 @@ local buttons = {
     {Name = "Strongest Hero to Jun", URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Jun"},
     {Name = "Strongest Hero to Shinji", URL = "https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji"},
     {Name = "Strongest Hero to Kratos", URL = "https://raw.githubusercontent.com/JakeScripterz/Kratos/refs/heads/main/KRATOS%20BY%20JAKESCRIPTERZZZ"},
+    {Name = "Strongest Hero to KJ", URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/KadeJ"},
     {Name = "Strongest Hero to Sung Jin Woo", URL = "https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"},
     {
         Name = "Strongest Hero to Shibuya Arc Gojo",
