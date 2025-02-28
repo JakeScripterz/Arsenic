@@ -60,6 +60,7 @@ local buttons = {
     {Name = "Strongest Hero to Mastery Saitama", URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Saitama"},
     {Name = "Destructive Cyborg to Mastery Genos", URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Genos"},
     {Name = "Deadly Ninja to Mastery Sonic", URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Sonic"},
+    {Name = "Deadly Ninja to 1x1x1x1", URL = "https://raw.githubusercontent.com/JakeScripterz/1x1x1x1/refs/heads/main/1X1X1X1"},
     {Name = "Hero Hunter to Mastery Garou", URL = "https://raw.githubusercontent.com/JakeScripterz/Mastery-Garou/refs/heads/main/Mastery"},
     {Name = "Blade Master to Mastery Atomic Samurai", URL = "https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Mastery%20Atomic%20Samurai"},
     {Name = "Strongest Hero to VEX0R", URL = "https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua"},
