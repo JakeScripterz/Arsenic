@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/GUI-Library/refs/heads/main/Orion%20Library.lua')))()
 OrionLib:MakeNotification({
 	Name = "Arsenic Hub Succesfully Executed",
-	Content = "Join My discord Plz",
+	Content = "join my discord server plz",
 	Image = "nil",
 	Time = 3
 })
