@@ -134,6 +134,7 @@ local miscButtons = {
     {Name = "Full Auto Kyoto", URL = "https://pastebin.com/raw/H8X2Fgd9"},
     {Name = "Fling Player", URL = "https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20fling%20script"},
     {Name = "Rotate During Saitama Ult", URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/MDSUA"},
+    {Name = "Death Counter Identifier", URL = "https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/TSB%20Death%20Counter%20Identifier.lua"},
     {Name = "Auto Tech", URL = "https://raw.githubusercontent.com/Cyborg883/NewAutoTech/refs/heads/main/Protected_6389347658054908.lua"},
     {Name = "Stick to Player", URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/TPOP"},
     {Name = "Trash Can Moveset", URL = "https://raw.githubusercontent.com/JakeScripterz/Trash-Can/refs/heads/main/Trash%20Can%20Moveset"},
