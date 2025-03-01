@@ -306,14 +306,89 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Death Counter Identifier",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/TSB%20Death%20Counter%20Identifier.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Blatant"
+})
+
+Tab:AddButton({
+	Name = "Farm Player",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/TPOP"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Invisible/Void Kill",
 	Callback = function()
       		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()
   	end    
 })
 
+Tab:AddButton({
+	Name = "Fly GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling Player GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20fling%20script"))()
+  	end    
+})
+
 local Section = Tab:AddSection({
-	Name = "Blatant"
+	Name = "Tools"
+})
+
+Tab:AddButton({
+	Name = "Run Tool",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Run-Tool/refs/heads/main/Phantom%20Dash"))()
+   	end
+})
+
+Tab:AddButton({
+	Name = "TP Tool",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/TP-Tool/refs/heads/main/Shadow-Step"))()
+   	end
+})
+
+local Section = Tab:AddSection({
+	Name = "Dev Tools"
+})
+
+Tab:AddButton({
+	Name = "Animation Logger",
+	Callback = function()
+      loadstring	(game:HttpGet("https://pastebin.com/raw/TMkwdWgY"))()
+   	end
+})
+
+Tab:AddButton({
+	Name = "Dex Explorer",
+	Callback = function()
+      loadstring	(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txtY"))()
+   	end
+})
+
+local Section = Tab:AddSection({
+	Name = "Visual"
+})
+
+Tab:AddButton({
+	Name = "PShade Ultimate",
+	Callback = function()
+      loadstring	(game:HttpGet("https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua"))()
+   	end
 })
 
 OrionLib:Init()
