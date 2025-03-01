@@ -12,7 +12,6 @@ local Window = OrionLib:MakeWindow({
     HidePremium = false, 
     SaveConfig = false, 
     ConfigFolder = "OrionTest404S",
-    Draggable = true  -- Add this line to make the window draggable
 })
 
 local Tab = Window:MakeTab({
