@@ -213,10 +213,46 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Hero Hunter to FAVILLA",
 	Callback = function()
-      		getgenv().domorph = true
-	       getgenv().Rate = .03
-	       getgenv().nocam = false
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua"))()
+      getgenv().domorph = true
+      getgenv().Rate = .03
+      getgenv().nocam = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to ARCAURA",
+	Callback = function()
+      getgenv().OptimizeUltimate = true
+      getgenv().ReduceUltFlash = true
+      getgenv().Move1Insta = true
+      getgenv().LowQualityMode = true
+      getgenv().BetaConsole = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Brutal Demon to APOPHENIA",
+	Callback = function()
+	      getgenv().Music = false
+      getgenv().AttackQuality = 'low'
+      getgenv().ConstantSpeed = true
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+	  end    
+})
+
+Tab:AddButton({
+	Name = "Deadly Ninja to VOLTA",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to AERIS",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
   	end    
 })
 
@@ -226,5 +262,58 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "Auto"
+})
+
+Tab:AddButton({
+	Name = "Auto Tech",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/NewAutoTech/refs/heads/main/Protected_6389347658054908.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Auto Block",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Auto Kyoto",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/H8X2Fgd9"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Fighting"
+})
+
+Tab:AddButton({
+	Name = "Fake Downslam",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/refs/heads/main/Fake%20downslam.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AimLock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aepione/Prensado/refs/heads/main/Prensado%20camlock"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Invisible/Void Kill",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Blatant"
+})
 
 OrionLib:Init()
