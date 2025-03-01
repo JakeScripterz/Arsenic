@@ -138,7 +138,7 @@ local miscButtons = {
     {Name = "Auto Tech", URL = "https://raw.githubusercontent.com/Cyborg883/NewAutoTech/refs/heads/main/Protected_6389347658054908.lua"},
     {Name = "Stick to Player", URL = "https://raw.githubusercontent.com/JakeScripterz/Screepts/refs/heads/main/TPOP"},
     {Name = "Trash Can Moveset", URL = "https://raw.githubusercontent.com/JakeScripterz/Trash-Can/refs/heads/main/Trash%20Can%20Moveset"},
-    {Name = "PShade Reborn", URL = "https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua"},
+    {Name = "PShade Ultimate", URL = "https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua"},
     {Name = "FE Fake Downslam", URL = "https://raw.githubusercontent.com/Mautiku/ehh/refs/heads/main/Fake%20downslam.txt"}
 }
 
