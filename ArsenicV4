@@ -105,16 +105,16 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Hero Hunter to Dio Brando",
+	Name = "Strongest Hero to Kira Yoshikage",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThanakritScript/StandUserCilent/refs/heads/main/DioBeta.lua",true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/heeeeloooguy/Test-guys/refs/heads/main/KIRA%20YOSHIKAGE%20SAITAMA"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Strongest Hero to Kira Yoshikage",
+	Name = "Hero Hunter to Dio Brando",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/heeeeloooguy/Test-guys/refs/heads/main/KIRA%20YOSHIKAGE%20SAITAMA"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThanakritScript/StandUserCilent/refs/heads/main/DioBeta.lua",true))()
   	end    
 })
 
