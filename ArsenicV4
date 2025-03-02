@@ -257,7 +257,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Misc",
+	Name = "Auto",
 	Icon = "",
 	PremiumOnly = false
 })
@@ -287,6 +287,12 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Fighting",
+	Icon = "",
+	PremiumOnly = false
+})
+
 local Section = Tab:AddSection({
 	Name = "Fighting"
 })
@@ -310,6 +316,12 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/TSB%20Death%20Counter%20Identifier.lua"))()
   	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blatant",
+	Icon = "",
+	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
@@ -344,6 +356,12 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Tools",
+	Icon = "",
+	PremiumOnly = false
+})
+
 local Section = Tab:AddSection({
 	Name = "Tools"
 })
@@ -362,6 +380,12 @@ Tab:AddButton({
    	end
 })
 
+local Tab = Window:MakeTab({
+	Name = "Dev Tools",
+	Icon = "",
+	PremiumOnly = false
+})
+
 local Section = Tab:AddSection({
 	Name = "Dev Tools"
 })
@@ -378,6 +402,19 @@ Tab:AddButton({
 	Callback = function()
       loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txtY"))()
    	end
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()
+   	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Visual",
+	Icon = "",
+	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
