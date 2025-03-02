@@ -54,7 +54,7 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = "Anime Based Movesets"
+	Name = "Jujutsu Kaisen Based Movesets"
 })
 
 Tab:AddButton({
@@ -79,13 +79,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Strongest Hero to Sung Jin Woo",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Strongest Hero to Shibuya Arc Gojo",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
@@ -100,23 +93,35 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Hero Hunter to Garou X Suiryu",
+	Name = "Strongest Hero to Strongest Of History",
 	Callback = function()
-      		loadstring(game:HttpGet("https://gist.githubusercontent.com/kjremaker/b092496fc11a57e2c50477154176fa3e/raw/2148f00a036a1799118541765675f3f6a0f8adae/GAROU%20TO%20SURIYU%20BETTER%20THAN%20THE%20[..."))
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/sukunasaitamav1/main/thescript",true))()
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Jojo's Bizarre Adventure Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Hero Hunter to Dio Brando",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThanakritScript/StandUserCilent/refs/heads/main/DioBeta.lua",true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Hero Hunter to Goku",
+	Name = "Hero Hunter to Enrico Pucci",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
-  	end    
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ohiorizzlersigmer/Jojo-movesets/refs/heads/main/Garou%20to%20Pucci%20V2"))()       
+      end    
 })
 
 Tab:AddButton({
-	Name = "Hero Hunter to Minos Prime",
+	Name = "Strongest Hero to Kira Yoshikage",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MinosPrimeFixed/refs/heads/main/ThefixIsSoSigma"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/heeeeloooguy/Test-guys/refs/heads/main/KIRA%20YOSHIKAGE%20SAITAMA"))()
   	end    
 })
 
@@ -400,7 +405,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Dex Explorer",
 	Callback = function()
-      loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+      loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txtY"))()
    	end
 })
 
