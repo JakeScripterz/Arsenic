@@ -112,18 +112,19 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Strongest Hero to Kira Yoshikage",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/heeeeloooguy/Test-guys/refs/heads/main/KIRA%20YOSHIKAGE%20SAITAMA"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Hero Hunter to Enrico Pucci",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/ohiorizzlersigmer/Jojo-movesets/refs/heads/main/Garou%20to%20Pucci%20V2"))()       
       end    
 })
 
-Tab:AddButton({
-	Name = "Strongest Hero to Kira Yoshikage",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/heeeeloooguy/Test-guys/refs/heads/main/KIRA%20YOSHIKAGE%20SAITAMA"))()
-  	end    
-})
 
 local Section = Tab:AddSection({
 	Name = "Roblox Lore Movesets"
@@ -175,9 +176,10 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Strongest Hero to Shinji",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/Shinji%20V2"))()
   	end    
 })
+
 
 Tab:AddButton({
 	Name = "Hero Hunter to KJ",
