@@ -1,16 +1,16 @@
 local player = game.Players.LocalPlayer
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/GUI-Library/refs/heads/main/Orion%20Library.lua')))()
 OrionLib:MakeNotification({
-	Name = "Arsenic Hub Succesfully Executed",
-	Content = "join my discord server plz",
-	Image = "nil",
+	Name = "Arsenic Hub Successfully Executed",
+	Content = "Join my discord server plz",
+	Image = "",
 	Time = 3
 })
 
 local Window = OrionLib:MakeWindow({Name = "Arsenic Hub By JakeScripterz", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest404S"})
 local Tab = Window:MakeTab({
 	Name = "Main",
-	Icon = "nil",
+	Icon = "",
 	PremiumOnly = false
 })
 
@@ -102,7 +102,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Hero Hunter to Garou X Suiryu",
 	Callback = function()
-      		loadstring(game:HttpGet("https://gist.githubusercontent.com/kjremaker/b092496fc11a57e2c50477154176fa3e/raw/2148f00a036a1799118541765675f3f6a0f8adae/GAROU%20TO%20SURIYU%20BETTER%20THAN%20THE%20OTHERS%20FR"))()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/kjremaker/b092496fc11a57e2c50477154176fa3e/raw/2148f00a036a1799118541765675f3f6a0f8adae/GAROU%20TO%20SURIYU%20BETTER%20THAN%20THE%20[..."))
   	end    
 })
 
@@ -258,7 +258,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
-	Icon = "nil",
+	Icon = "",
 	PremiumOnly = false
 })
 
@@ -369,14 +369,14 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Animation Logger",
 	Callback = function()
-      loadstring	(game:HttpGet("https://pastebin.com/raw/TMkwdWgY"))()
+      loadstring(game:HttpGet("https://pastebin.com/raw/TMkwdWgY"))()
    	end
 })
 
 Tab:AddButton({
 	Name = "Dex Explorer",
 	Callback = function()
-      loadstring	(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txtY"))()
+      loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txtY"))()
    	end
 })
 
@@ -387,7 +387,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "PShade Ultimate",
 	Callback = function()
-      loadstring	(game:HttpGet("https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua"))()
    	end
 })
 
