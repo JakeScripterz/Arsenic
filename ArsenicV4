@@ -105,13 +105,6 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Strongest Hero to Joseph Joestar",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TAEKWADO/Loadstring/refs/heads/main/Joeseph%20Joestar"))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Strongest Hero to Za Hando",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/Yourfavoriteguy/ZA/refs/heads/main/hando'))() loadstring(game:HttpGet("https://pastebin.com/raw/xMKaxyQK"))()
