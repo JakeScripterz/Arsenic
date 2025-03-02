@@ -133,6 +133,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Hero Hunter to Dio Brando V2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThanakritScript/StandUserCilent/refs/heads/main/DioBeta.lua"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Hero Hunter to Enrico Pucci",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/ohiorizzlersigmer/Jojo-movesets/refs/heads/main/Garou%20to%20Pucci%20V2"))()       
