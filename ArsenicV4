@@ -314,7 +314,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Death Counter Identifier",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/TSB%20Death%20Counter%20Identifier.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
   	end    
 })
 
