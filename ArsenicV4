@@ -146,6 +146,17 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
+	Name = "Solo Leveling Movesets"
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Sung Jin Woo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo",true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
 	Name = "Roblox Lore Movesets"
 })
 
