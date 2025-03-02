@@ -400,7 +400,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Dex Explorer",
 	Callback = function()
-      loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txtY"))()
+      loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
    	end
 })
 
