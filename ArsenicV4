@@ -79,7 +79,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Strongest Hero to Yuta Okkutsu",
+	Name = "Blade Master to Yuta Okkutsu",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/AtomicToYuta/main/Protected_8122576078506000.txt"))()
   	end    
@@ -221,6 +221,13 @@ Tab:AddButton({
 	Name = "Hero Hunter to KJ",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/garoukjv1maybeidk/main/Protected_2460290213750059.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Dark Lord",
+	Callback = function()
+      		loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/Main/refs/heads/main/Dark%20lord"))()"))()
   	end    
 })
 
