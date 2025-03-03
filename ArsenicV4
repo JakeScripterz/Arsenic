@@ -192,6 +192,20 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Hero Hunter to Ultrakill",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/GarouToV1/refs/heads/main/GarouToV1.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Master to Vergil",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/vergilmoveset/refs/heads/main/Protected_9080797627073616.txt"))()
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "Stickman Universe Movesets"
 })
