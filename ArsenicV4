@@ -206,7 +206,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Strongest Hero to Shinji",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji"))()
+      		loadstring(game:HttpGet("https://pastefy.app/8noh51xT/raw"))()
   	end    
 })
 
