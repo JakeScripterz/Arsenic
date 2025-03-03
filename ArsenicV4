@@ -394,6 +394,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Lock Moves To Player",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/refs/heads/main/Lock%20On.lua"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Death Counter Identifier",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/TSB%20Death%20Counter%20Identifier.lua"))()
