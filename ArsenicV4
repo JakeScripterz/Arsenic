@@ -79,6 +79,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Strongest Hero to Yuta Okkutsu",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/AtomicToYuta/main/Protected_8122576078506000.txt"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Strongest Hero to Shibuya Arc Gojo",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
