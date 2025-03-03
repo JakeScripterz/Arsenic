@@ -54,6 +54,17 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
+	Name = "Dragon Ball Based Movesets"
+})
+
+Tab:AddButton({
+	Name = "Martial Artist to Beast Gohan",
+	Callback = function()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/envix2759/fb04c62d5b3ed582f426ee40262b4852/raw/77d417b7c5b450dbe48a3d2e22fa05d9e84967ab/gistfile1.txt"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
 	Name = "Jujutsu Kaisen Based Movesets"
 })
 
