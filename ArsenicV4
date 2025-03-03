@@ -146,7 +146,7 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = "Solo Leveling Movesets"
+	Name = "Solo Leveling Based Movesets"
 })
 
 Tab:AddButton({
