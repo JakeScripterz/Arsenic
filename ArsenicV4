@@ -241,7 +241,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Blade Master to Dark Lord",
 	Callback = function()
-      		loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/Main/refs/heads/main/Dark%20lord"))()"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/Main/refs/heads/main/Dark%20lord"))()
   	end    
 })
 
