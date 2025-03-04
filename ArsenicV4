@@ -275,7 +275,14 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Trash Can Moveset",
+	Name = "Strongest Hero to Mixed Moveset",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/Y3uyGSK6"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Strongest Hero to Trash Can Moveset",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Trash-Can/refs/heads/main/Trash%20Can%20Moveset"))()
   	end    
